@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    background-color: black;
+    padding: 20px 10%;
+    color: white;
+    display: flex;
+}
+.img{
+    width: 30%;
+    justify-items: center;
+}
+.img img{
+    width: 70px;
+}
+ul{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+ul li{
+    font-size: 12px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.main-banner{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-contant{
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 100vh;
+}
+span {
+    width: 75px;
+    height: 60px;
+    background-color: red;
+    justify-items:  center;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 5px;
+}
+p{
+    justify-items:  center;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+}
+.box-1 {
+    width: 32%;
+    height: 170px;
+    display: flex;
+    border: 2px solid yellowgreen;
+}
+.box-2 {
+    width: 32%;
+    height: 170px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    border: 2px solid yellowgreen;
+}
+.box-3 {
+    width: 32%;
+    height: 170px;
+    display: flex;
+    justify-content:end;
+    align-items:flex-end;
+    border: 2px solid yellowgreen;
+}
+.box-4 {
+    width: 26%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid yellowgreen;
+}
+.box-5 {
+    width: 44%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid yellowgreen;
+}
+.box-6 {
+    width: 26%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid yellowgreen;
+}
+.box-7 {
+    width: 32%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid yellowgreen;
+    padding: 20px;
+}
+.box-7 span{
+    font-size: 15px;
+    width: 15%;
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid yellowgreen;
+}
+.box-8 {
+    width: 32%;
+    height: 170px;
+    display: flex;
+    justify-content:flex-start;
+    border: 2px solid yellowgreen;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.box-8 span{
+    font-size: 15px;
+    width: 14%;
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid yellowgreen;
+    align-content: flex-start;
+}
+.box-9 {
+    width: 32%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid yellowgreen;
+    padding: 20px;
+}
+
+.box-9 span{
+    font-size: 15px;
+    width: 24%;
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid yellowgreen;
+}
+
+.box-9 span.btn2{
+    justify-items:  center;
+    align-self: center;
+}
+.box-9 span.btn3{
+    justify-items:  center;
+    align-self: flex-end;
+}
+
+.right-contant{
+    width: 20%;
+    border-left: 2px solid red;
+    height: 100vh;
+}
+
+.right-contant{
+    background-color: rgb(210, 210, 210);
+}
+.right-contant img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+h4 {
+    padding: 20px;
+}
+.bottom{
+    background-color: rgb(20, 23, 25);
+    color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.bottom ul{
+    width: 20%;
+    margin: auto;
+
+}
+.bottom ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    display: inline-block;
+}
+.bottom ul li a{
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+
+
